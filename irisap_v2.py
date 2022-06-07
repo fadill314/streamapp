@@ -32,7 +32,7 @@ def user_input_features():
 def show_results():
     st.subheader('User Input Parameters: ')
     st.write(df)
-    model_iris=pickle.load(open("model_iris.pkl", "rb"))
+    model_iris=pickle.load(open("iris_model.pkl", "rb"))
     prediction = model_iris.predict(df)
     prediction_proba = model_iris.predict_proba(df)
 
