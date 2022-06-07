@@ -4,7 +4,7 @@ import streamlit as st
 import pandas as pd
 import pickle
 
-st.image("https://en.wikipedia.org/wiki/Hassania_School_of_Public_Works#/media/File:LogoEHTP.jpg",width=400)
+st.image("https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/LogoEHTP.jpg/640px-LogoEHTP.jpg",width=360)
 st.write("""
 ## MSDE4 : ML Course
 ### Iris Flower Prediction App
